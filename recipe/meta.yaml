@@ -1,5 +1,5 @@
 {% set name = "ligo.em-bright" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ligo.em-bright-{{ version }}.tar.gz
-  sha256: ebba9868b0cb8f7290702c27b69f1cc00566bf7c10f85a8b6f31abfca984d43b
+  sha256: 29f43d7b1ebf34ab4014557265c0185824def839c23b790ffc670418fc0fed73
   patches:
     # we don't need the whole lalsuite, just a few components
     - no-lalsuite.patch
