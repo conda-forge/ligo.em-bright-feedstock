@@ -9,8 +9,8 @@ source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ligo.em-bright-{{ version }}.tar.gz
   sha256: e00c1e65b22ce7e0cb24a28b2f0d768a2f0abf411c34bf7eb1251ab41d749f17
   patches:
-    # we don't need the whole lalsuite, just a few components
-    - no-lalsuite.patch
+    # see https://git.ligo.org/duncanmmacleod/em-bright/-/commits/conda-patches/
+    - 0001-pyproject.toml-update-requirements.patch
 
 build:
   noarch: python
