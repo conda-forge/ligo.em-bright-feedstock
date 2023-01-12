@@ -31,9 +31,9 @@ requirements:
     - poetry-core >=1.0.0
     - python >=3.8,<4.0
   run:
-    - astropy >=5.1
-    - h5py >=2.10.0
-    - pandas >=1.0,<2.0
+    - astropy >=5.2.1
+    - h5py >=3.7.0
+    - pandas >=1.5.2
     - python >=3.8,<4.0
     - python-htcondor >=9.0.6
     - python-lal >=7.1.3
