@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ligo.em-bright-
 
 Summary: Possibility and properties of Electromagnetically-bright sources of gravitational-wave events
 
-Development: https://git.ligo.org/deep.chatterjee/em-bright.git
+Development: https://git.ligo.org/emfollow/em-properties/em-bright.git
 
 Current build status
 ====================
