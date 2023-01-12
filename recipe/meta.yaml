@@ -47,7 +47,8 @@ test:
     - pytest
   commands:
     # check requirements
-    - python -m pip check
+    - python -m pip check ligo.em-bright
+    - python -m pip show ligo.em-bright
     # run test suite
     - python -m pytest -ra --pyargs ligo.em_bright
     # check console scripts
@@ -61,7 +62,7 @@ test:
 
 about:
   home: https://pypi.org/project/ligo.em-bright/
-  dev_url: https://git.ligo.org/deep.chatterjee/em-bright.git
+  dev_url: https://git.ligo.org/emfollow/em-properties/em-bright.git
   summary: Possibility and properties of Electromagnetically-bright sources of gravitational-wave events
   license: MIT
   license_file: LICENSE
