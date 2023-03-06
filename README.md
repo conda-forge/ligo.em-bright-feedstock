@@ -1,11 +1,11 @@
-About ligo.em-bright
-====================
+About ligo.em-bright-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ligo.em-bright-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/ligo.em-bright/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ligo.em-bright-feedstock/blob/main/LICENSE.txt)
 
 Summary: Possibility and properties of Electromagnetically-bright sources of gravitational-wave events
 
