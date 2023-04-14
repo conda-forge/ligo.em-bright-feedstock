@@ -1,5 +1,5 @@
 {% set name = "ligo.em-bright" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 {% set pypi_name = name|replace('.', '-') %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name|replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 572900d3deb789cf76d356dfe2469a53c0ace3199d8821443512d8046ee7458c
+  sha256: 3dec6a2f49bd5d793379a921cb4ac306dc5e59393e7df2638437b06b37e0ceb4
   patches:
     # see https://git.ligo.org/duncanmmacleod/em-bright/-/commits/conda-patches/
     - 0001-pyproject.toml-update-requirements.patch
