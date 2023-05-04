@@ -1,9 +1,8 @@
-From 64eaf1a0e3b2bc8d29e8f38441220662a009cef1 Mon Sep 17 00:00:00 2001
-From: "duncan.macleod" <duncan.macleod@ligo.org>
-Date: Thu, 20 Oct 2022 09:34:42 +0100
-Subject: [PATCH] pyproject.toml: update requirements
+From fbe2c2e2c76e52935c82c89d9b04a15560988f9b Mon Sep 17 00:00:00 2001
+From: Deep Chatterjee <deep.chatterjee@ligo.org>
+Date: Thu, 4 May 2023 11:38:21 -0400
+Subject: [PATCH] remove lalsuite
 
-we don't need all of lalsuite in conda
 ---
  pyproject.toml | 1 -
  1 file changed, 1 deletion(-)
@@ -21,5 +20,5 @@ index 46d0da4..dad515b 100644
  
  [tool.poetry.dev-dependencies]
 -- 
-2.30.2
+2.25.1
 
