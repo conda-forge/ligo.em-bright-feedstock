@@ -1,17 +1,6 @@
-From fbe2c2e2c76e52935c82c89d9b04a15560988f9b Mon Sep 17 00:00:00 2001
-From: Deep Chatterjee <deep.chatterjee@ligo.org>
-Date: Thu, 4 May 2023 11:38:21 -0400
-Subject: [PATCH] remove lalsuite
-
----
- pyproject.toml | 1 -
- 1 file changed, 1 deletion(-)
-
-diff --git a/pyproject.toml b/pyproject.toml
-index 46d0da4..dad515b 100644
---- a/pyproject.toml
-+++ b/pyproject.toml
-@@ -23,7 +23,6 @@ python = ">=3.9"
+--- pyproject.toml	2023-04-14 20:58:52.401702200 +0100
++++ pyproject.toml	2023-05-04 18:08:18.503207015 +0100
+@@ -23,7 +23,6 @@
  scikit-learn = "==1.2.1" 
  astropy = ">=5.2.1"
  pandas = ">=1.5.2"
@@ -19,6 +8,3 @@ index 46d0da4..dad515b 100644
  h5py = ">=3.7.0"
  
  [tool.poetry.dev-dependencies]
--- 
-2.25.1
-
