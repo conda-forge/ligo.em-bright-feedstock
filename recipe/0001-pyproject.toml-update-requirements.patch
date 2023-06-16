@@ -1,14 +1,14 @@
-From d1eb2d2b57c0932a37ef8295cfeb2a9aa9d8a50b Mon Sep 17 00:00:00 2001
+From 5bfc06b1ce9232a95aa3e0e7d76df5df21de4d97 Mon Sep 17 00:00:00 2001
 From: Deep Chatterjee <deep.chatterjee@ligo.org>
-Date: Wed, 14 Jun 2023 23:24:19 -0400
-Subject: [PATCH] patch
+Date: Fri, 16 Jun 2023 09:39:21 -0400
+Subject: [PATCH] remove lalsuite patch
 
 ---
  pyproject.toml | 1 -
  1 file changed, 1 deletion(-)
 
 diff --git a/pyproject.toml b/pyproject.toml
-index 7bdb601..3337781 100644
+index df73e83..e353d7d 100644
 --- a/pyproject.toml
 +++ b/pyproject.toml
 @@ -23,7 +23,6 @@ python = ">=3.9"
