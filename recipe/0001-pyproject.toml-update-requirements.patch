@@ -1,6 +1,18 @@
---- pyproject.toml	2023-04-14 20:58:52.401702200 +0100
-+++ pyproject.toml	2023-05-04 18:08:18.503207015 +0100
-@@ -23,7 +23,6 @@
+From 3b1da3330ab7709883293aef958911d5d5b92256 Mon Sep 17 00:00:00 2001
+From: "duncan.macleod" <duncan.macleod@ligo.org>
+Date: Thu, 20 Oct 2022 09:34:42 +0100
+Subject: [PATCH] pyproject.toml: update requirements
+
+we don't need all of lalsuite in conda
+---
+ pyproject.toml | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index fc7f458..a6e2ea3 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -23,7 +23,6 @@ python = ">=3.9"
  scikit-learn = "==1.2.1" 
  astropy = ">=5.2.1"
  pandas = ">=1.5.2"
@@ -8,3 +20,6 @@
  h5py = ">=3.7.0"
  
  [tool.poetry.dev-dependencies]
+-- 
+2.41.0
+
