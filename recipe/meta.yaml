@@ -1,5 +1,5 @@
 {% set name = "ligo.em-bright" %}
-{% set version = "1.1.4.post2" %}
+{% set version = "1.1.5" %}
 {% set pypi_name = name|replace('.', '-') %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name|replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 8fe27e624e06ace2f4615cacda397249c38acb5d919411c25ea2c4888ae6a638
+  sha256: d07d8f38fdea6a9d296438ba419649dc49d98b61fd7e6d1cb71bded7f32568e3
   patches:
     # see https://git.ligo.org/duncanmmacleod/em-bright/-/commits/conda-patches/
     - 0001-pyproject.toml-update-requirements.patch
@@ -64,6 +64,7 @@ test:
 about:
   home: https://pypi.org/project/ligo.em-bright/
   dev_url: https://git.ligo.org/emfollow/em-properties/em-bright.git
+  doc_url: https://emfollow.docs.ligo.org/em-properties/em-bright
   summary: Possibility and properties of Electromagnetically-bright sources of gravitational-wave events
   license: MIT
   license_file: LICENSE
