@@ -1,25 +1,10 @@
-From 64eaf1a0e3b2bc8d29e8f38441220662a009cef1 Mon Sep 17 00:00:00 2001
-From: "duncan.macleod" <duncan.macleod@ligo.org>
-Date: Thu, 20 Oct 2022 09:34:42 +0100
-Subject: [PATCH] pyproject.toml: update requirements
-
-we don't need all of lalsuite in conda
----
- pyproject.toml | 1 -
- 1 file changed, 1 deletion(-)
-
-diff --git a/pyproject.toml b/pyproject.toml
-index f89f1ab..f5e5964 100644
---- a/pyproject.toml
-+++ b/pyproject.toml
-@@ -18,7 +18,6 @@ python = "^3.8"
- scikit-learn = "==1.1.3"  #  model trained with 1.1.3. see :https://scikit-learn.org/stable/model_persistence.html
+--- pyproject.toml	2023-04-14 20:58:52.401702200 +0100
++++ pyproject.toml	2023-05-04 18:08:18.503207015 +0100
+@@ -23,7 +23,6 @@
+ scikit-learn = "==1.2.1" 
  astropy = ">=5.2.1"
  pandas = ">=1.5.2"
 -lalsuite = "^7.0"
  h5py = ">=3.7.0"
  
  [tool.poetry.dev-dependencies]
--- 
-2.30.2
-
