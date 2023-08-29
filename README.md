@@ -11,6 +11,8 @@ Summary: Possibility and properties of Electromagnetically-bright sources of gra
 
 Development: https://git.ligo.org/emfollow/em-properties/em-bright.git
 
+Documentation: https://emfollow.docs.ligo.org/em-properties/em-bright
+
 Current build status
 ====================
 
