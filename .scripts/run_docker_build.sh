@@ -68,7 +68,6 @@ rm -f "$DONE_CANARY"
 DOCKER_RUN_ARGS="${CONDA_FORGE_DOCKER_RUN_ARGS}"
 if [ -z "${CI}" ]; then
     DOCKER_RUN_ARGS="-it ${DOCKER_RUN_ARGS}"
-    echo $?
 fi
 
 ( endgroup "Configure Docker" ) 2> /dev/null
