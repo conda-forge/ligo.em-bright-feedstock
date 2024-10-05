@@ -1,25 +1,24 @@
-From 3b1da3330ab7709883293aef958911d5d5b92256 Mon Sep 17 00:00:00 2001
-From: "duncan.macleod" <duncan.macleod@ligo.org>
-Date: Thu, 20 Oct 2022 09:34:42 +0100
-Subject: [PATCH] pyproject.toml: update requirements
+From 94a4a9d8bf1c437573248bd38463aaf8d7dd26d1 Mon Sep 17 00:00:00 2001
+From: Deep Chatterjee <deep.chatterjee@ligo.org>
+Date: Sat, 5 Oct 2024 10:01:59 -0400
+Subject: [PATCH] remove lalsuite for conda build
 
-we don't need all of lalsuite in conda
 ---
  pyproject.toml | 1 -
  1 file changed, 1 deletion(-)
 
 diff --git a/pyproject.toml b/pyproject.toml
-index fc7f458..a6e2ea3 100644
+index 11c6a77..5b618d3 100644
 --- a/pyproject.toml
 +++ b/pyproject.toml
-@@ -23,7 +23,6 @@ python = ">=3.9"
- scikit-learn = "==1.2.1" 
- astropy = ">=5.2.1"
- pandas = ">=1.5.2"
--lalsuite = "^7.0"
- h5py = ">=3.7.0"
+@@ -27,7 +27,6 @@ python = ">=3.10"
+ scikit-learn = "==1.5.1" 
+ astropy = "^6.0"
+ pandas = "^2.2"
+-lalsuite = "^7.23"
+ h5py = "^3.11"
+ numpy = "*"
  
- [tool.poetry.dev-dependencies]
 -- 
-2.41.0
+2.25.1
 
