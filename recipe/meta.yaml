@@ -15,7 +15,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - em_bright_categorize = ligo.em_bright.categorize:main
@@ -32,7 +32,7 @@ requirements:
     - poetry-core >=1.2.0
     - python >=3.10,<4.0
   run:
-    - astropy >=6.0
+    - astropy-base >=6.0
     - h5py >=3.11.0
     - pandas >=2.2
     - python >=3.10,<4.0
