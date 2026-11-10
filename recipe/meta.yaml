@@ -2,7 +2,7 @@
 {% set version = "1.2.3" %}
 {% set pypi_name = name|replace('.', '-') %}
 
-{% set python_min = "3.10" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
